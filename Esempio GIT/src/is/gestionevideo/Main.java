@@ -53,7 +53,7 @@ public class Main {
 
 		data_evento = LocalDate.of(2020, Month.JANUARY, 30);
 
-		VideoEvento v5 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
+		VideoEvento v6 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
@@ -65,7 +65,7 @@ public class Main {
 		gestionevideo.caricaVideo(v2);
 		gestionevideo.caricaVideo(v3);
 		gestionevideo.caricaVideo(v4);
-		gestionevideo.caricaVideo(v5);
+		gestionevideo.caricaVideo(v6);
 
 
 		ArrayList<Video> v_ricerca = gestionevideo.ricercaVideo(Sport.CALCIO, "Samp");
@@ -84,7 +84,7 @@ public class Main {
 		gestionevideo.rimuoviVideo(v2);
 		gestionevideo.rimuoviVideo(v3);
 		gestionevideo.rimuoviVideo(v4);
-		gestionevideo.rimuoviVideo(v5);
+		gestionevideo.rimuoviVideo(v6);
 
 
 
