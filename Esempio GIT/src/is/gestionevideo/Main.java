@@ -18,7 +18,7 @@ public class Main {
 		GestioneVideo gestionevideo = new GestioneVideo();
 
 
-		String nome_evento = "Partita Fiorentina-Napoli";
+		String nome_evento = "Partita Atalanta-Napoli";
 
 		LocalDate data_evento = LocalDate.of(2019, Month.AUGUST, 24);
 
