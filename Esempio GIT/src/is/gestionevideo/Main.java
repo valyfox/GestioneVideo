@@ -56,7 +56,8 @@ public class Main {
 		VideoEvento v6 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
-		v4.addGiornalista(new Giornalista("PIPPOCAIO", "PLUTO"));
+
+		v4.addGiornalista(new Giornalista("PIPPOCAIO", "PLUTOREMOTO"));
 
 
 
