@@ -49,7 +49,7 @@ public class Main {
 		VideoApprofondimento v4 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
 		
 		
-		nome_evento = "Partita Napoli-Lazio";
+		nome_evento = "Partita Napoli-Roma";
 
 		data_evento = LocalDate.of(2020, Month.JANUARY, 30);
 
